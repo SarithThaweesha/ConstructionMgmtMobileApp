@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home2"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+        <item
+            android:id="@+id/markAtten"
+            android:title="Mark Attendance"
+            android:icon="@drawable/ic_baseline_assignment_24"
+            ></item>
+        <item
+            android:id="@+id/calSal"
+            android:title="Calculate Salary"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            ></item>
+
+
+    </group>
+
+    <item android:title="Masonry workers">
+        <menu>
+            <item
+                android:id="@+id/addMas2"
+                android:title="Add Workers"
+                android:icon="@drawable/ic_baseline_person_add_24"
+                ></item>
+            <item
+                android:id="@+id/manageWorker2"
+                android:title="Update Workers"
+                android:icon="@drawable/ic_baseline_person_pin_24"
+                ></item>
+
+        </menu>
+
+    </item>
+
+
+</menu>

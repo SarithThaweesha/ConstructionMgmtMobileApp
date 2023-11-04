@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+        <item
+            android:id="@+id/addCons"
+            android:title="Add Construction Sites"
+            android:icon="@drawable/ic_baseline_construction_24"
+            ></item>
+    </group>
+    <item android:title="Supervisors">
+        <menu>
+            <item
+                android:id="@+id/addSup"
+                android:title="Add/Register superviors"
+                android:icon="@drawable/ic_baseline_person_add_24"
+                ></item>
+            <item
+                android:id="@+id/manageSup"
+                android:title="Manage supervisors"
+                android:icon="@drawable/ic_baseline_person_pin_24"
+                ></item>
+        </menu>
+    </item>
+    <item android:title="Masonry workers">
+        <menu>
+            <item
+                android:id="@+id/addMas"
+                android:title="Add Workers"
+                android:icon="@drawable/ic_baseline_person_add_24"
+                ></item>
+            <item
+                android:id="@+id/manageWorker"
+                android:title="Manage Workers"
+                android:icon="@drawable/ic_baseline_person_pin_24"
+                ></item>
+        </menu>
+    </item>
+    <item android:title="View">
+        <menu>
+            <item
+                android:id="@+id/viewMAs"
+                android:title="View Workers"
+                android:icon="@drawable/ic_baseline_preview_24"
+                ></item>
+            <item
+                android:id="@+id/viewSup"
+                android:title="View Supervisors"
+                android:icon="@drawable/ic_baseline_preview_24"
+                ></item>
+        </menu>
+    </item>
+</menu>
